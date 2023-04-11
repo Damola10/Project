@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap");
+
+body {
+  background-image: url("images/bg-desktop.svg");
+  background-color: hsl(257, 40%, 49%);
+  box-sizing: border-box;
+  width: 100%;
+}
+
+img {
+  margin-top: 50px;
+}
+
+section {
+  display: flex;
+}
+
+aside {
+  padding: 20px;
+  margin: 20px;
+}
+
+h1 {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 50px;
+  font-weight: 600;
+}
+
+p {
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.button {
+  padding-right: 500px;
+}
+
+button {
+  background-color: white;
+  color: hsl(257, 40%, 49%);
+  width: 200px;
+  height: 50px;
+  border-radius: 50px;
+  border: none;
+  box-shadow: 50px;
+  font-size: large;
+  cursor: pointer;
+}
+
+div {
+  display: flex;
+  color: white;
+  font-size: 20px;
+  margin-right: 60px;
+  justify-content: end;
+}
+
+.fa-brands {
+  border-radius: 50%;
+  border: 2px solid white;
+  color: white;
+  padding: 13px;
+  margin-left: 10px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: white;
+}
+
+.fa-facebook-f {
+  padding-left: 17px;
+  padding-right: 17px;
+}
+
+.fa-instagram {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+@media screen and (max-width: 500px) {
+
+  body {
+    background-image: url(images/bg-mobile.svg);
+
+    justify-content: center;
+    margin: auto;
+    width: 375vw;
+  }
+
+.logo {
+  padding-left: 50px;
+  font-size: 900px;
+}
+
+  .huddle {
+    padding: 0px 50px 0px 50px;
+    margin-top: 100px;
+  }
+
+  section {
+    flex-direction: column;
+    margin: auto;
+  }
+  aside {
+   text-align: center;
+  }
+
+  p {
+    color: white;
+    font-family: "Open Sans", sans-serif;
+    font-size: 50px;
+
+  }
+
+}

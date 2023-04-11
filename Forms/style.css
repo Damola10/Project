@@ -1,0 +1,101 @@
+
+body {
+ background-image:  url("young.jpg");
+ margin: 0;
+}
+
+main{
+    width: 1000;
+    margin: auto;
+}
+
+nav {
+    background-color: aliceblue;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+nav div {
+   margin: auto;
+   width: 1000px;
+   text-align: right;
+}
+
+a {
+    text-decoration: none;
+    color: rebeccapurple;
+}
+
+a:hover {
+text-decoration: underline;
+font-weight: 600px;
+}
+
+form {
+    margin-top: 30px;
+    text-align: center;
+}
+
+form h1 {
+    text-align: center;
+}
+
+form div label {
+    width: 12%;
+    display: inline-block;
+    font-weight: 5600;
+}
+
+form div {
+    margin-bottom: 10px;
+    text-align: left !important;
+}
+
+form div input[type="text"], form div input[type="password"], form div input[type="Email"], form div input[type="number"], form div input[type="date"] , select,textarea {
+    width: 80%;
+    height: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+button {
+    width: 100px;
+    height: 40px;
+    background-color: rgb(47, 197, 47);
+    border: none;
+    color: white;
+    border-radius: 7px;
+    margin: auto;
+    cursor: pointer;
+}
+
+.Specialization {
+    display: flex;
+    
+}
+
+textarea {
+    height: 200px;
+}
+
+.loginmain {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logindiv {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+    font-size: 15px;
+  }
+  .logindiv > input {
+    border-radius: 10px;
+    border: none;
+  }
+  
+  .logindiv > input:focus{
+    border: none;
+  }
+  

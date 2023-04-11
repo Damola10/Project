@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&family=Open+Sans&display=swap');
+
+body {
+  background-color:  hsl(233, 47%, 7%);
+  color: white;
+  
+}
+
+main {
+    background-color: hsl(244, 38%, 16%);
+    display: flex;
+    font-size: 15px;
+    width: 1000px;
+    margin: 150px;
+    border-radius: 20px;
+}
+
+h1 {
+  margin: 30px;
+  font-size: 40px;
+}
+
+b {
+    color:hsl(277, 64%, 61%) ;
+}
+
+p {
+    font-weight: 400;
+    font-size: 20px;
+    margin: 30px;
+}
+
+article {
+width: 50%;
+display: flex;
+line-height: 0;
+padding-left: 40px;
+}
+
+.data {
+   
+
+}
+
+h3 {
+    align-items: center;
+    font-size: 30px;
+}
+
+
+aside {
+    width: 50%;
+  }
+

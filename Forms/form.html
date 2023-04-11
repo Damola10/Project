@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+         <div>
+        <a href="login.html">Student Login</a>
+         </div>
+    </nav>
+ <main>
+   
+    <form>
+        <h1>Students' Registration Form</h1>
+        <div>
+            <label for="Firstname">First Name</label>
+            <input type="text" placeholder="Enter Your First Name" name="Firstname">
+        </div>
+
+        <div>
+            <label for="Lastname">Last Name</label>
+            <input type="text" placeholder="Enter Your Last Name" name="Lastname">
+        </div>
+
+        <div>
+            <label for="Email">Email</label>
+            <input type="text" placeholder="Enter Your email" name="Email">
+        </div>
+
+        <div>
+            <label for="Mobilenumber">Mobile number</label>
+            <input type="text" placeholder="Phone number" name="Mobilenumber">
+        </div>
+
+        <div>
+            <label for="">Gender</label>
+            <input type="radio" value="Male" name="gender">Male
+            <input type="radio" value="Female" name="gender">Female
+        </div>
+
+        <div>
+            <label for="dob">Date of Birth</label>
+            <input type="date" name="dob">
+        </div>
+
+        <div>
+            <label for="Address">Address</label>
+            <textarea name="Address" id="" cols="30" rows="10"></textarea>
+        </div>
+
+        <div>
+            <label for="city">city</label>
+            <input type="text" name="city" id="">
+        </div>
+
+        <div>
+            <label for="AreaPIN">Area PIN</label>
+            <input type="number" name="Area">
+        </div>
+
+        <div>
+            <label for="Country">Country</label>
+            <select name="Country" id="">
+                <option hidden value="">Select Country</option>
+                <option value="Nigeria"></option>
+                <option value="Ghana"></option>
+                <option value="Togo"></option>
+                <option value="Qatar"></option>
+                <option value="UAE"></option>
+            </select>
+        </div>
+
+        <div>
+            <label for="State">State</label>
+            <select name="State" id="">
+                <option hidden value="">Select Country</option>
+                <option value="Lagos"></option>
+                <option value="Bauchi"></option>
+                <option value="Edo"></option>
+                <option value="Kwara"></option>
+                <option value="Niger"></option>
+            </select>
+        </div>
+
+        <div>
+            <label for="Qualification">Qualification</label>
+            <input type="text" name="Qualification">
+        </div>
+        
+        <div class="Specialization">
+            <label for="Specialization">Specialization</label>
+            <div>
+            <input type="checkbox" name="Specialization" value="Computer science">Computer science <br>
+            <input type="checkbox" name="Specialization"  value="Information Technology">Information Technology <br>
+            <input type="checkbox" name="Specialization"  value="Computer Architecture">Computer Architecture <br>
+            <input type="checkbox" name="Specialization"  value="Telecommunication">Telecommunication
+           </div>
+        </div>
+
+        <div>
+            <label for="Password">Password</label>
+            <input type="password" name="Password">
+        </div>
+
+        <button>Register</button>
+
+
+    </form>
+ </main>    
+</body>
+</html>
